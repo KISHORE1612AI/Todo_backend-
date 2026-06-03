@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "Buy groceries",
+    "description": "Milk, eggs, bread, and vegetables",
+    "completed": false,
+    "priority": "medium",
+    "createdAt": "2024-05-20T10:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "title": "Complete project report",
+    "description": "Finish the quarterly sales report for the manager",
+    "completed": false,
+    "priority": "high",
+    "createdAt": "2024-05-21T09:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "title": "Go for a walk",
+    "description": "30 minute walk in the evening",
+    "completed": true,
+    "priority": "low",
+    "createdAt": "2024-05-19T17:00:00.000Z"
+  }
+]
