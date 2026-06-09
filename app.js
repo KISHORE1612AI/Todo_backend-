@@ -1,7 +1,13 @@
 import express from 'express';
+import cors from 'cors';
 import todoRoutes from './app/modules/todo/routes/todoRoutes.js';
 
 const app = express();
+
+app.use(cors({
+  origin: 'http://localhost:3000',
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
+}));
 
 app.use(express.json());
 
