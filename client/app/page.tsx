@@ -10,7 +10,7 @@ interface Todo {
   createdAt: string;
 }
 
-const API = "http://localhost:3001/api/todos";
+const API = `${process.env.NEXT_PUBLIC_API_URL || "https://todo-backend-pz8f.onrender.com"}/api/todos`;
 
 const priorityColor: Record<string, string> = {
   high: "#fee2e2",
