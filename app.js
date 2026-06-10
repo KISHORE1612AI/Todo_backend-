@@ -5,7 +5,10 @@ import todoRoutes from './app/modules/todo/routes/todoRoutes.js';
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: [
+    'http://localhost:3000',
+    'https://todo-backend-omega-three.vercel.app'
+  ],
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
 }));
 
